@@ -15,9 +15,10 @@
         // Conversão de string para numero
         // Number.parseInt(n) para numeros inteiros
         // Number.parseFloat(n) para numeros com virgulas
+        // Number o js decide se é inteiro ou com virgula
 
-        var n1 =  Number.parseInt(window.prompt('Digite um número: '));
-        var n2 =  Number.parseInt(window.prompt('Digite outro número número: '));
+        var n1 =  Number(window.prompt('Digite um número: '));
+        var n2 =  Number(window.prompt('Digite outro número número: '));
         var soma = n1+n2;
         window.alert('A soma dos dois valores é ' + soma );
 
