@@ -32,6 +32,7 @@
 
     <h3>Selecionando os Elementos</h3>
     <p>Existe inúmeras metodos para acessar esses elementos como por exemplo<strong> por Marca, por Id, por Nome, por Classe, por Seletor</strong>.</p>
+    <p> Para selecionar por Marca usamos o comando: <strong>getElementsByTagName()</strong>, quando eu uso esse comando eu consigo selecionar mais de um objeto. </p>
 
 
 
@@ -40,7 +41,8 @@
     <div> Clique em mim </div>
 
     <script>
-        window.document.write()
+        var p1 = window.document.getElementsByTagName('p')[2]
+        window.document.write('Está escrito assim no parágrafo escolhido : ' + p1.innerText)
     </script>
     
 </body>
