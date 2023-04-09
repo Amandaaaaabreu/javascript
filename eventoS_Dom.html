@@ -29,14 +29,24 @@
     <p><strong>Mouseout:</strong> Quando eu arrasto o meu mouse para fora do meu elemento.</p>
 
 
-    <div id = "area" onclick="clique()"> <!-- eu tenho que desparar e configurar o metodo-->
+    <div id = "area" onclick="clique()" onmouseenter="entrar()" onmouseout="sair()"> <!-- eu tenho que desparar e configurar o metodo-->
         <strong>Interaja</strong>
     </div>
 
     <script>
+
+         var a = window.document.getElementById('area') // criei o objeto do lado de fora para ficar com o escopo global
+
         function clique(){  //
-            var a = window.document.getElementById('area')
             a.innerText = 'Clicou'
+        }
+
+        function entrar(){
+            a.innerText = 'Entrou'
+        }
+
+        function sair(){
+            a.innerText = 'Saiu'
         }
     </script>
     
