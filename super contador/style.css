@@ -1,14 +1,13 @@
 body{
-    background-color: rgba(85, 69, 97, 0.833);
-    font: normal 15pt Times;
-    
+    background-color: rgba(180, 213, 203, 0.521);
 }
+
 header{
     color: azure;
     text-align: center;
 }
 section{
-    background-color: rgba(93, 63, 93, 0.888);
+    background-color: rgb(204, 223, 223);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
