@@ -4,9 +4,10 @@
 3- é feito o incremento
 
 for(inicio;teste;incr){}
-
 */
 
-for(var c= 1; c<=10; c++){
-    
+console.log('Vai começar')
+for(var a=0; a<=13; a++){
+    console.log(a)
 }
+console.log('Fim')
