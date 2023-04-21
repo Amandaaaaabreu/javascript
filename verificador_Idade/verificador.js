@@ -32,10 +32,10 @@ function verificar(){
             if(idade >= 0 && idade < 10){
                 // crianca
                 img.setAttribute('src', 'Fotos Ex15 Curso JS/foto-bebe-f.png')
-            }else if(idade >= 10 && idade <= 21){
+            }else if(idade >= 10 && idade <= 23){
                 // jovem
                 img.setAttribute('src', 'Fotos Ex15 Curso JS/foto-jovem-f.png')
-            }else if(idade > 21 && idade < 50){
+            }else if(idade >= 23 && idade < 50){
                 // adulto
                 img.setAttribute('src', 'Fotos Ex15 Curso JS/foto-adulto-f.png')
             }else{
