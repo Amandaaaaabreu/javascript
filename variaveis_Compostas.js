@@ -1,6 +1,7 @@
 let num = [2,5,1,3,7]
-num.push(4)
-num.sort()
+num.push(8) // acrescentando valores no vetor
+
+//num.sort() // colocando os elementos em ordem crescente.
 
 //num[6] = 7 // estou criando mais um elemento , add o indice (6) e colocando o valor 7 dentro do elemento
 

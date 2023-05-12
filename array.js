@@ -10,7 +10,7 @@ for(let pos = 0; pos < num.length; pos++){
 //num.length // para saber o comprimento de um array
 
 
-let num = [2,5,1,3,7]
+let num = [2,4,1,3,5]
 num.sort() // add em ordem
 
 for(let ind in num){ // antes do IN eu add o nome do meu indice e depois do IN eu add o nome da variavel composta
